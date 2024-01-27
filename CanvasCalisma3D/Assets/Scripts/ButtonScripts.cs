@@ -17,8 +17,13 @@ public class ButtonScripts : MonoBehaviour
         
     }
 
-    public void ButtonPressed() 
+    public void PlayButtom() 
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(0);
+    }
+
+    public void ExitButtom() 
+    {
+        Application.Quit();
     }
 }
